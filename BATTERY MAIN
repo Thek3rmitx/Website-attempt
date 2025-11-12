@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NATO 6T Battery</title>
+  <style>
+    :root {
+      --accent: #00d4ff;
+      --dark-bg: #0a0e12;
+      --mid-bg: #12181f;
+      --light-text: #e7eef3;
+    }
+
+    * { box-sizing: border-box; scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--dark-bg);
+      color: var(--light-text);
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    /* --- HEADER --- */
+    header {
+      background: radial-gradient(circle at top left, #00223d, #000);
+      padding: 8rem 2rem 6rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    header h1 {
+      font-size: 3rem;
+      color: var(--accent);
+      text-shadow: 0 0 20px #00d4ff90;
+      letter-spacing: 1px;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.8;
+    }
+
+    /* --- NAVBAR --- */
+    nav {
+      background: #00000090;
+      backdrop-filter: blur(6px);
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: var(--light-text);
+      text-decoration: none;
+      font-weight: 500;
+      transition: color .3s;
+    }
+    nav a:hover { color: var(--accent); }
+
+    /* --- SECTIONS --- */
+    section {
+      max-width: 1100px;
+      margin: 3rem auto;
+      padding: 2.5rem;
+      background: var(--mid-bg);
+      border-radius: 16px;
+      box-shadow: 0 0 20px #00000055;
+    }
+    h2 {
+      color: var(--accent);
+      border-left: 4px solid var(--accent);
+      padding-left: 0.75rem;
+      margin-top: 0;
+    }
+    ul { list-style: none; padding: 0; }
+    li { margin: 0.6rem 0; }
+
+    /* --- TABLE --- */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1.5rem;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 0.75rem;
+      text-align: left;
+    }
+    th {
+      background: #0f1822;
+      color: var(--accent);
+    }
+
+    /* --- FOOTER --- */
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #000;
+      color: #888;
+      font-size: 0.9rem;
+    }
+
+    /* --- EFFECTS --- */
+    section, header h1, header p {
+      transition: transform .6s ease, opacity .6s ease;
+    }
+    section:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 30px #00d4ff30;
+    }
+
+    @media(max-width:700px){
+      header h1{font-size:2.2rem;}
+      section{margin:1rem; padding:1.5rem;}
+      table{font-size:0.9rem;}
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>NATO 6T Battery</h1>
+    <p>Advanced Military-Grade Energy for Tactical & Armored Systems</p>
+  </header>
+
+  <nav>
+    <a href="#intro">Intro</a>
+    <a href="#specs">Tech Specs</a>
+    <a href="#manufacturers">Manufacturers</a>
+    <a href="#prices">Prices</a>
+  </nav>
+
+  <!-- INTRO -->
+  <section id="intro">
+    <h2>Introduction</h2>
+    <p>
+      The <strong>NATO 6T Battery</strong> is a globally standardized energy module designed
+      for high-reliability use in military and defense vehicles. It combines robust construction
+      with exceptional performance across extreme environments.
+    </p>
+    <p>
+      Modern lithium-ion 6T systems deliver lighter weight, longer life, and higher power
+      output compared to legacy lead-acid batteries — meeting next-generation battlefield and
+      off-grid energy demands.
+    </p>
+  </section>
+
+  <!-- TECH SPECS -->
+  <section id="specs">
+    <h2>Technical Specifications & Military Number</h2>
+    <ul>
+      <li><strong>Standard Designation:</strong> 6T / MIL-PRF-32143</li>
+      <li><strong>Voltage:</strong> 24 V nominal (12 V variants exist)</li>
+      <li><strong>Capacity:</strong> 100–180 Ah depending on chemistry</li>
+      <li><strong>Chemistry:</strong> Li-ion (LFP / NCA) or Lead-Acid (AGM, Gel)</li>
+      <li><strong>Dimensions:</strong> 269 × 256 × 230 mm</li>
+      <li><strong>Operating Range:</strong> −46 °C to +71 °C</li>
+      <li><strong>Pulse Discharge:</strong> up to 1100 A (30 s)</li>
+      <li><strong>Cycle Life:</strong> 2000–4000 cycles</li>
+    </ul>
+  </section>
+
+  <!-- MANUFACTURERS -->
+  <section id="manufacturers">
+    <h2>Manufacturers</h2>
+    <ul>
+      <li><a href="https://www.epsilor.com/product/6t-li-ion-nato-batteries/" target="_blank" style="color:var(--accent);">Epsilor Electric Fuel</a></li>
+      <li><a href="https://denchigroup.com/" target="_blank" style="color:var(--accent);">Denchi Group</a></li>
+      <li><a href="https://www.bren-tronics.com/" target="_blank" style="color:var(--accent);">Bren-Tronics</a></li>
+      <li><a href="https://www.saft.com/products-solutions/defense/6t-batteries" target="_blank" style="color:var(--accent);">Saft Batteries</a></li>
+      <li><a href="https://www.enerdel.com/" target="_blank" style="color:var(--accent);">EnerDel</a></li>
+    </ul>
+  </section>
+
+  <!-- PRICE COMPARISON -->
+  <section id="prices">
+    <h2>Price Comparison</h2>
+    <table>
+      <tr>
+        <th>Manufacturer</th>
+        <th>Model</th>
+        <th>Chemistry</th>
+        <th>Voltage</th>
+        <th>Capacity</th>
+        <th>Approx. Price (USD)</th>
+      </tr>
+      <tr>
+        <td>Epsilor</td>
+        <td>6T Li-Ion 4.4 kWh</td>
+        <td>LFP</td>
+        <td>25.2 V</td>
+        <td>174 Ah</td>
+        <td>$3,800 – $4,500</td>
+      </tr>
+      <tr>
+        <td>Denchi Group</td>
+        <td>6T Lithium-Ion</td>
+        <td>NCA</td>
+        <td>24 V</td>
+        <td>165 Ah</td>
+        <td>$3,500 – $4,200</td>
+      </tr>
+      <tr>
+        <td>Bren-Tronics</td>
+        <td>BB-2590/U</td>
+        <td>Li-Ion</td>
+        <td>24 V</td>
+        <td>150 Ah</td>
+        <td>$3,200 – $3,800</td>
+      </tr>
+      <tr>
+        <td>Saft</td>
+        <td>6T Ultra</td>
+        <td>LFP</td>
+        <td>24 V</td>
+        <td>180 Ah</td>
+        <td>$4,000 – $4,600</td>
+      </tr>
+    </table>
+  </section>
+
+  <footer>
+    © 2025 NATO 6T Battery Portal – All data approximate
+  </footer>
+</body>
+</html>
